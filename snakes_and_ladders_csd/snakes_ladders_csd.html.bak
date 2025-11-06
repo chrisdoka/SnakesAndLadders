@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="myStyle.css">
+ <link rel="stylesheet" href="CSS.css">
+ 
+<script src="initBoard.js"></script>
+<script src="game.js"></script>
+</head>
+<script>
+function startGame(){
+initBoard.start();
+}
+
+</script>
+
+<body onload=initBoard()>
+
+
+
+  <p id="placeholder">
+  
+  </p>
+<table  id="mainTable">
+</table>
+<br>
+
+<div class="box" id="infobox">
+  <p id="infobox" >
+  </p>
+  
+</div>
+
+
+		
+		
+<div class="dice-container">
+            <img src="img/dice1.png"  height=90 width=50 id="dice-id"/>
+            <button onclick="roll()">Roll Dice</button>
+        </div>
+
+
+
+</body>
+
+</html>
+

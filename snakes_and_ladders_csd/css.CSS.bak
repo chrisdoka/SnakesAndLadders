@@ -1,0 +1,62 @@
+img{
+    width: 100px;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.dice-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.box {
+  width: 400px;
+  height: 20px;
+  border: 2px solid #000;
+  margin: 0 auto 15px;
+  text-align: center;
+   color: #ffffff;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+button{
+    background-color: #e92e3d;
+    height: 10%;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 15px;
+    width: 20%;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-left: 10px;
+    box-shadow: 1px 1px #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
